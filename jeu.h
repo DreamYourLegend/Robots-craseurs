@@ -8,11 +8,11 @@ const int NBPOINTMECHANT = 100;
 
 class jeu
 {
-    class friend afficherJeu;
+    friend class afficherJeu;
 
 public:
     jeu();
-    jeu(int nbVieuxRobots, int nbNouveauxRobots,int tailleTerrain, char typePartie)
+    jeu(int nbVieuxRobots, int nbNouveauxRobots,int tailleTerrain, char typePartie);
     ~jeu();
     void run();
     void ajouterEntite(entite* entite1);

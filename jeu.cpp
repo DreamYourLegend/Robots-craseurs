@@ -7,10 +7,11 @@
 #include "joueurDifficile.h"
 
 jeu::jeu():
-d_nbVieuxRobots{3}, d_nbNouveauxRobots{1},d_tailleTerrain{200},
-d_typePartie{'F'},d_vectEntite{} {},d_score{0}
+d_nbVieuxRobots{3}, d_nbNouveauxRobots{1} , d_tailleTerrain{200} ,
+d_typePartie{'F'} , d_vectEntite{} ,d_score{0}
 {
-    joueurFacile *j1=new joueurFacile{position p{d_tailleTerrain/2, d_tailleTerrain/2}};
+    position p { d_tailleTerrain / 2 , d_tailleTerrain / 2 };
+    joueurFacile *j1 = new joueurFacile { p } ;
     d_vectEntite.push_back(j1);
 }
 
@@ -20,12 +21,14 @@ d_vectEntite{},d_score{0}
 {
     if(d_typePartie=='D')
     {
-        joueurDifficile *j1=new joueurDifficile{position p{d_tailleTerrain/2, d_tailleTerrain/2}};
-        d_vectEntite.push_back(j1)
+        position p { static_cast < int > ( d_tailleTerrain / 2 ) , static_cast < int > ( d_tailleTerrain / 2 ) };
+        joueurDifficile *j1 = new joueurDifficile{ p };
+        d_vectEntite.push_back(j1);
     }
     else
     {
-        joueurFacile *j1=new joueurFacile{position p{d_tailleTerrain/2, d_tailleTerrain/2}};
+        position p { static_cast < int > ( d_tailleTerrain / 2 ) , static_cast < int > ( d_tailleTerrain / 2 ) };
+        joueurFacile *j1 = new joueurFacile{ p };
         d_vectEntite.push_back(j1);
     }
 }
@@ -57,7 +60,7 @@ void jeu::supprimerEntite(entite* entite1)
 
 void jeu::jouerUnTour()
 {
-    for(int i=0; i<d_vectEntite.size();i++)
+    for( unsigned int i = 0 ; i < d_vectEntite.size() ; i++)
     {
         d_vectEntite[i]->deplacePerso();
     }
@@ -68,9 +71,9 @@ void jeu::collision()
 {
     if(!d_vectEntite.empty())
     {
-        for(int i=0; i<d_vectEntite.size()-1; i++)
+        for( unsigned int i = 0 ; i < d_vectEntite.size() - 1 ; i++)
         {
-            for(int j=1; j<d_vectEntite.size(); j++)
+            for( unsigned int j = 1 ; j < d_vectEntite.size() ; j++)
             {
                 while(d_vectEntite[i]->getPosition()==d_vectEntite[j]->getPosition()) //si la dernière case avait la même position avant remplacement
                 {

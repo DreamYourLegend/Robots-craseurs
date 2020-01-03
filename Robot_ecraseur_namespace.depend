@@ -1,0 +1,117 @@
+# depslib dependency file v1.0
+1578051248 source:c:\users\el\documents\mise à niveau informatique\qdp\robots-craseurs-master\robots-craseurs-master\entite.cpp
+	"entite.h"
+	"position.h"
+	<iostream>
+	<string>
+
+1578051248 c:\users\el\documents\mise à niveau informatique\qdp\robots-craseurs-master\robots-craseurs-master\entite.h
+	<iostream>
+	"position.h"
+	<string>
+
+1578051248 c:\users\el\documents\mise à niveau informatique\qdp\robots-craseurs-master\robots-craseurs-master\position.h
+	<iostream>
+
+1578051248 source:c:\users\el\documents\mise à niveau informatique\qdp\robots-craseurs-master\robots-craseurs-master\joueur.cpp
+	"joueur.h"
+	<string>
+	"position.h"
+
+1578051248 c:\users\el\documents\mise à niveau informatique\qdp\robots-craseurs-master\robots-craseurs-master\joueur.h
+	"entite.h"
+	<string>
+
+1578051248 source:c:\users\el\documents\mise à niveau informatique\qdp\robots-craseurs-master\robots-craseurs-master\joueurdifficile.cpp
+	"joueurDifficile.h"
+	"namespaceDeplacement.h"
+	<string>
+	<iostream>
+
+1578051248 c:\users\el\documents\mise à niveau informatique\qdp\robots-craseurs-master\robots-craseurs-master\joueurdifficile.h
+	"joueur.h"
+	<string>
+
+1578051248 c:\users\el\documents\mise à niveau informatique\qdp\robots-craseurs-master\robots-craseurs-master\namespacedeplacement.h
+	"position.h"
+
+1578051248 source:c:\users\el\documents\mise à niveau informatique\qdp\robots-craseurs-master\robots-craseurs-master\joueurfacile.cpp
+	"joueurFacile.h"
+	<string>
+	"namespaceDeplacement.h"
+	<iostream>
+
+1578051248 c:\users\el\documents\mise à niveau informatique\qdp\robots-craseurs-master\robots-craseurs-master\joueurfacile.h
+	"joueur.h"
+	<string>
+
+1578051248 source:c:\users\el\documents\mise à niveau informatique\qdp\robots-craseurs-master\robots-craseurs-master\namespacedeplacement.cpp
+	"namespaceDeplacement.h"
+	"position.h"
+
+1578051248 source:c:\users\el\documents\mise à niveau informatique\qdp\robots-craseurs-master\robots-craseurs-master\nouveaurobot.cpp
+	"nouveauRobot.h"
+	<string>
+	"namespaceDeplacement.h"
+	"position.h"
+	"joueur.h"
+
+1578051248 c:\users\el\documents\mise à niveau informatique\qdp\robots-craseurs-master\robots-craseurs-master\nouveaurobot.h
+	"robot.h"
+	<string>
+
+1578051248 c:\users\el\documents\mise à niveau informatique\qdp\robots-craseurs-master\robots-craseurs-master\robot.h
+	"entite.h"
+	<string>
+
+1578051248 source:c:\users\el\documents\mise à niveau informatique\qdp\robots-craseurs-master\robots-craseurs-master\obstacle.cpp
+	"obstacle.h"
+	"position.h"
+
+1578051248 c:\users\el\documents\mise à niveau informatique\qdp\robots-craseurs-master\robots-craseurs-master\obstacle.h
+	"entite.h"
+
+1578051248 source:c:\users\el\documents\mise à niveau informatique\qdp\robots-craseurs-master\robots-craseurs-master\position.cpp
+	"position.h"
+	<iostream>
+
+1578051248 source:c:\users\el\documents\mise à niveau informatique\qdp\robots-craseurs-master\robots-craseurs-master\robot.cpp
+	"robot.h"
+	<string>
+
+1578051248 source:c:\users\el\documents\mise à niveau informatique\qdp\robots-craseurs-master\robots-craseurs-master\vieuxrobot.cpp
+	"vieuxRobot.h"
+	<string>
+	"namespaceDeplacement.h"
+	"joueur.h"
+
+1578051248 c:\users\el\documents\mise à niveau informatique\qdp\robots-craseurs-master\robots-craseurs-master\vieuxrobot.h
+	"robot.h"
+	<string>
+
+1578051248 source:c:\users\el\documents\mise à niveau informatique\qdp\robots-craseurs-master\robots-craseurs-master\winbgi.cpp
+	<windows.h>
+	<stddef.h>
+	<stdio.h>
+	<math.h>
+	"graphics.h"
+
+1578051248 c:\users\el\documents\mise à niveau informatique\qdp\robots-craseurs-master\robots-craseurs-master\graphics.h
+
+1578051248 source:c:\users\el\documents\mise à niveau informatique\qdp\robots-craseurs-master\robots-craseurs-master\main.cpp
+	<iostream>
+	"jeu.h"
+	"afficherJeu.h"
+
+1578065626 c:\users\el\documents\mise à niveau informatique\qdp\robots-craseurs-master\robots-craseurs-master\jeu.h
+	<vector>
+	"entite.h"
+	"position.h"
+
+1578065954 c:\users\el\documents\mise à niveau informatique\qdp\robots-craseurs-master\robots-craseurs-master\afficherjeu.h
+	"jeu.h"
+
+1578051248 source:c:\users\el\documents\mise à niveau informatique\qdp\robots-craseurs-master\robots-craseurs-master\afficherjeu.cpp
+	"afficherJeu.h"
+	"jeu.h"
+

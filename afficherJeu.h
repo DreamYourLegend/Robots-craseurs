@@ -9,7 +9,7 @@ class afficherJeu
     void afficheMenu() const;
 
 private:
-    jeu* d_poiteurJeu;
+    jeu* d_pointeurJeu;
 };
 
 #endif // AFFICHERJEU_H
